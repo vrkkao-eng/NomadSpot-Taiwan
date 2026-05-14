@@ -326,9 +326,9 @@ button { font-family: inherit; cursor: pointer; }
 }
 .info-row {
   display: flex; align-items: flex-start; gap: 6px;
-  font-size: 16px; color: var(--color-label);
+  font-size: 14px; color: var(--color-label);
 }
-.info-row .ic { font-size: 16px; line-height: 1; min-width: 16px; }
+.info-row .ic { font-size: 14px; line-height: 1; min-width: 14px; }
 .facilities { display: flex; flex-wrap: wrap; gap: 8px; }
 .chip {
   padding: 8px 14px;
