@@ -117,7 +117,7 @@ button { font-family: inherit; cursor: pointer; }
   max-width: 720px;
   aspect-ratio: 800 / 1080;
   margin-left: auto;
-  background-image: url('assets/index.svg');
+  background-image: url('assets/icons/NomadSpot TW.svg');
   background-repeat: no-repeat;
   background-position: right center;
   /* 1920 / 800 = 2.4 → render the SVG at 240% width so only the right
