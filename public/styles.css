@@ -108,9 +108,7 @@ button { font-family: inherit; cursor: pointer; }
 }
 .btn-primary:hover { background: var(--color-primary-strong); transform: translateY(-1px); }
 
-/* Taiwan illustration is windowed from /assets/index.svg via CSS cropping.
-   The source SVG (1920×1080) is rendered at native scale and panned so only
-   the right-hand Taiwan portion is visible. The artwork itself is untouched. */
+/* Taiwan illustration adapted to  /assets/icons/NomadSpot TW.svg /
 .intro-illustration {
   position: relative;
   width: 100%;
@@ -119,9 +117,8 @@ button { font-family: inherit; cursor: pointer; }
   margin-left: auto;
   background-image: url('assets/icons/NomadSpot TW.svg');
   background-repeat: no-repeat;
-  background-position: right center;
-  /* 1920 / 800 = 2.4 → render the SVG at 240% width so only the right
-     ~800px (the Taiwan column) fits inside the viewport. */
+  background-position: center center;
+
   background-size: 240% 100%;
 }
 .taiwan-svg { display: none; }   /* legacy hook, no-op if any markup remains */
