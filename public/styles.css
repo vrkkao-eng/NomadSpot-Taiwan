@@ -117,7 +117,7 @@ button { font-family: inherit; cursor: pointer; }
   margin-left: auto;
   background-image: url('assets/icons/NomadSpot_TW.svg');
   background-repeat: no-repeat;
-  background-position: right right;
+  background-position: right center;
 
   background-size: 240% 100%;
 }
