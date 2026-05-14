@@ -97,11 +97,11 @@ function renderWeatherHTML(wx) {
     <div class="weather-box">
       <div class="summary">${desc}</div>
       <div class="stats">
-        <span><img src="/assets/icons/temp.svg" alt="Location Icon" width="16" height="16"> ${temp}</span>
+        <span><img src="/assets/icons/temp.svg" alt="Temp Icon" width="14" height="14"> ${temp}</span>
         <span>·</span>
-        <span><img src="/assets/icons/rain.png" alt="Location Icon" width="16" height="16"> ${rain}</span>
+        <span><img src="/assets/icons/rain.png" alt="Rain Icon" width="14" height="14"> ${rain}</span>
         <span>·</span>
-        <span><img src="/assets/icons/wind.png" alt="Location Icon" width="16" height="16"> ${aqi}</span>
+        <span><img src="/assets/icons/wind.png" alt="Aqi Icon" width="14" height="14"> ${aqi}</span>
       </div>
     </div>`;
 }
@@ -192,7 +192,7 @@ function renderYoubikeHTML(stations) {
     return `
       <div class="info-row" style="align-items:center; justify-content:space-between; border-bottom:1px dashed var(--color-line); padding:6px 0;">
         <div>
-          <div style="font-weight:500; font-size:13px;"><img src="/assets/icons/bicycle.svg" alt="Location Icon" width="24" height="24"> ${displayName}</div>
+          <div style="font-weight:500; font-size:13px;"><img src="/assets/icons/bicycle.svg" alt="Bike Icon" width="16" height="16"> ${displayName}</div>
           <div style="font-size:12px; color:var(--color-label-alt)">${dist} away</div>
         </div>
         <div style="text-align:right; font-size:12px;">
@@ -385,9 +385,9 @@ async function openDetail(rawId) {
 
         ${weatherBlock}
 
-        <div class="info-row"><span class="ic"><img src="/assets/icons/location.png" alt="Location" width="16" height="16"></span><span>${c.address || "No address provided"}</span></div>
-        ${c.instagram || c.instagram_url ? `<div class="info-row"><span class="ic"><img src="/assets/icons/instagram.svg" alt="Instagram" width="16" height="16"></span><a href="${c.instagram_url || c.instagramUrl || '#'}" target="_blank" rel="noopener">${c.instagram || 'Instagram'}</a></div>` : ''}
-        ${c.phone ? `<div class="info-row"><span class="ic"><img src="/assets/icons/phone.png" alt="Phone" width="16" height="16"></span><a href="tel:${c.phone.replace(/\s/g, "")}">${c.phone}</a></div>` : ''}
+        <div class="info-row"><span class="ic"><img src="/assets/icons/location.png" alt="Location" width="14" height="14"></span><span>${c.address || "No address provided"}</span></div>
+        ${c.instagram || c.instagram_url ? `<div class="info-row"><span class="ic"><img src="/assets/icons/instagram.svg" alt="Instagram" width="14" height="14"></span><a href="${c.instagram_url || c.instagramUrl || '#'}" target="_blank" rel="noopener">${c.instagram || 'Instagram'}</a></div>` : ''}
+        ${c.phone ? `<div class="info-row"><span class="ic"><img src="/assets/icons/phone.png" alt="Phone" width="14" height="14"></span><a href="tel:${c.phone.replace(/\s/g, "")}">${c.phone}</a></div>` : ''}
         ${c.notes ? `<div class="info-row"><span class="ic">📝</span><span>${c.notes}</span></div>` : ''}
 
         <div class="facilities">${facilitiesHTML}</div>
