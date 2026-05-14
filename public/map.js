@@ -386,7 +386,7 @@ async function openDetail(rawId) {
         ${weatherBlock}
 
         <div class="info-row"><span class="ic"><img src="/assets/icons/location.png" alt="Location" width="16" height="16"></span><span>${c.address || "No address provided"}</span></div>
-        ${c.instagram || c.instagram_url ? `<div class="info-row"><span class="ic"><img src="/assets/icons/instagram.png" alt="Instagram" width="16" height="16"></span><a href="${c.instagram_url || c.instagramUrl || '#'}" target="_blank" rel="noopener">${c.instagram || 'Instagram'}</a></div>` : ''}
+        ${c.instagram || c.instagram_url ? `<div class="info-row"><span class="ic"><img src="/assets/icons/instagram.svg" alt="Instagram" width="16" height="16"></span><a href="${c.instagram_url || c.instagramUrl || '#'}" target="_blank" rel="noopener">${c.instagram || 'Instagram'}</a></div>` : ''}
         ${c.phone ? `<div class="info-row"><span class="ic"><img src="/assets/icons/phone.png" alt="Phone" width="16" height="16"></span><a href="tel:${c.phone.replace(/\s/g, "")}">${c.phone}</a></div>` : ''}
         ${c.notes ? `<div class="info-row"><span class="ic">📝</span><span>${c.notes}</span></div>` : ''}
 
