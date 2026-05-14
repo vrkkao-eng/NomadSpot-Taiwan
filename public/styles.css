@@ -114,6 +114,7 @@ button { font-family: inherit; cursor: pointer; }
   width: 100%;
   max-width: 720px;
   aspect-ratio: 800 / 1080;
+  max-height: auto;
   margin-left: auto;
   background-image: url('assets/icons/NomadSpot_TW.svg');
   background-repeat: no-repeat;
