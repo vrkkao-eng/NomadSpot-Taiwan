@@ -192,7 +192,7 @@ function renderYoubikeHTML(stations) {
     return `
       <div class="info-row" style="align-items:center; justify-content:space-between; border-bottom:1px dashed var(--color-line); padding:6px 0;">
         <div>
-          <div style="font-weight:500; font-size:13px;">🚲 ${displayName}</div>
+          <div style="font-weight:500; font-size:13px;"><img src="/assets/icons/bicycle.svg" alt="Location Icon" width="24" height="24"> ${displayName}</div>
           <div style="font-size:12px; color:var(--color-label-alt)">${dist} away</div>
         </div>
         <div style="text-align:right; font-size:12px;">
