@@ -322,7 +322,7 @@ button { font-family: inherit; cursor: pointer; }
 .weather-box .summary { font-size: 13px; font-weight: 500; }
 .weather-box .stats {
   display: flex; flex-wrap: wrap; gap: 8px 12px;
-  font-size: 13px; color: var(--color-label-alt);
+  font-size: 14px; color: var(--color-label-alt);
 }
 .info-row {
   display: flex; align-items: flex-start; gap: 12px;
