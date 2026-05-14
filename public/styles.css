@@ -108,7 +108,7 @@ button { font-family: inherit; cursor: pointer; }
 }
 .btn-primary:hover { background: var(--color-primary-strong); transform: translateY(-1px); }
 
-/* Taiwan illustration adapted to  /assets/icons/NomadSpot TW.svg /
+/* Taiwan illustration adapted to  /assets/icons/NomadSpot_TW.svg */
 .intro-illustration {
   position: relative;
   width: 100%;
