@@ -97,7 +97,7 @@ function renderWeatherHTML(wx) {
     <div class="weather-box">
       <div class="summary">${desc}</div>
       <div class="stats">
-        <span><img src="/assets/icons/star.png" alt="Location Icon" width="24" height="24">${temp}</span>
+        <span><img src="/assets/icons/star.svg" alt="Location Icon" width="24" height="24">${temp}</span>
         <span>·</span>
         <span><img src="/assets/icons/rain.png" alt="Location Icon" width="24" height="24"> ${rain}</span>
         <span>·</span>
