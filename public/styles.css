@@ -548,8 +548,8 @@ button { font-family: inherit; cursor: pointer; }
   .intro-main { grid-template-columns: 1fr; padding: 24px; gap: 24px; min-height: auto; }
   .intro-content { order: 2; text-align: center; }
   .intro-content h1 { font-size: 36px; letter-spacing: -1.6px; }
-  .intro-content p { margin-left: auto; margin-right: auto; }
-  .intro-illustration { order: 1; height: 320px; aspect-ratio: unset; min-height: unset; max-width: none; margin: 0 auto; background-position: left center; }
+  .intro-content p { margin-left: auto; margin-right: auto; text-align: left; }
+  .intro-illustration { order: 1; height: 320px; aspect-ratio: unset; min-height: unset; max-width: none; margin: 0 auto; background-position: center center; }
   .btn-primary { display: block; margin: 0 auto; }
 
   .map-shell {
@@ -670,9 +670,6 @@ button { font-family: inherit; cursor: pointer; }
   transition: opacity 200ms ease, transform 200ms ease;
   cursor: pointer;
 }
-.cafe-pin-svg svg { width: 100%; height: 100%; }
-.cafe-pin-svg.dimmed { opacity: 0.18; }
-.cafe-pin-svg.highlighted { transform: scale(1.4); z-index: 1000 !important; }
 .cafe-pin-svg svg { width: 100%; height: 100%; }
 .cafe-pin-svg.dimmed { opacity: 0.18; }
 .cafe-pin-svg.highlighted { transform: scale(1.4); z-index: 1000 !important; }
