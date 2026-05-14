@@ -113,11 +113,10 @@ button { font-family: inherit; cursor: pointer; }
   position: relative;
   width: 100%;
   max-width: 720px;
-  aspect-ratio: 800 / 1080;
   margin-left: auto;
   background-image: url('assets/icons/NomadSpot_TW.svg');
   background-repeat: no-repeat;
-  background-position: right center;
+  background-position: center center;
 
   background-size: 240% 100%;
 }
