@@ -542,14 +542,14 @@ button { font-family: inherit; cursor: pointer; }
    - Layout becomes vertical
    - Cafe list = Bottom sheet
    - Filter = Bottom drawer
-   - Detail = Bottom drawer (Updated!)
+   - Detail = Bottom drawer 
    ============================================================ */
 @media (max-width: 768px) {
   .intro-main { grid-template-columns: 1fr; padding: 24px; gap: 24px; min-height: auto; }
   .intro-content { order: 2; text-align: center; }
   .intro-content h1 { font-size: 36px; letter-spacing: -1.6px; }
   .intro-content p { margin-left: auto; margin-right: auto; }
-  .intro-illustration { order: 1; height: 320px; aspect-ratio: unset; min-height: unset; max-width: none; margin: 0 auto; background-position: right center; }
+  .intro-illustration { order: 1; height: 320px; aspect-ratio: unset; min-height: unset; max-width: none; margin: 0 auto; background-position: center center; }
   .btn-primary { display: block; margin: 0 auto; }
 
   .map-shell {
