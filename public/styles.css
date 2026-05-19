@@ -80,6 +80,8 @@ button { font-family: inherit; cursor: pointer; }
   min-height: calc(100vh - 128px);
   padding: 0 160px;
   gap: 64px;
+  max-width: 1848px;
+  margin: 0 auto;
 }
 .intro-content h1 {
   font-size: 56px;
@@ -518,7 +520,7 @@ button { font-family: inherit; cursor: pointer; }
    ============================================================ */
 @media (max-width: 1280px) {
   .intro-main { padding: 0 80px; gap: 48px; }
-  .intro-illustration { aspect-ratio: unset; min-height: 420px; max-height: 560px; background-position: 97% center; }
+  .intro-illustration { aspect-ratio: 800 / 1000; min-height: 420px; max-height: 560px; background-position: center center; }
 }
 
 /* ============================================================
@@ -531,7 +533,7 @@ button { font-family: inherit; cursor: pointer; }
   .intro-content h1 { font-size: 46px; letter-spacing: -2px; }
   .intro-content p { margin-left: auto; margin-right: auto; }
   .intro-content a { display: block; }
-  .intro-illustration { order: 1; height: 460px; aspect-ratio: unset; min-height: unset; max-height: none; max-width: none; margin: 0 auto; background-position: right center; }
+  .intro-illustration { order: 1; height: 460px; aspect-ratio: unset; min-height: unset; max-height: none; max-width: none; margin: 0 auto; background-position: center center; }
 }
 
 /* ============================================================
