@@ -6,7 +6,7 @@
 
 ## Overview
 
-NomadSpot Taiwan is an interactive, multilingual web application that helps digital nomads, remote workers, and café-hoppers discover the best café workspaces across Taiwan. It combines real-time weather and AQI data to help users find the ideal spot to settle in and get things done.
+NomadSpot Taiwan is an interactive web application that helps digital nomads, remote workers, and café-hoppers discover the best café workspaces across Taiwan. It combines real-time weather and AQI data to help users find the ideal spot to settle in and get things done.
 
 **Supported Languages  English
 
@@ -90,17 +90,7 @@ NomadSpot Taiwan is an interactive, multilingual web application that helps digi
 git clone https://github.com/<your-username>/NomadSpot-Taiwan.git
 cd NomadSpot-Taiwan
 npm install
-```
 
-###  Environment Variables
-
-Create a `.env` file in the project root (see `.env` for reference):
-
-```env
-WEATHER_API_KEY=your_openweather_api_key
-AQI_API_KEY=your_aqi_api_key
-PORT=3000
-```
 
 ## Scripts
 | Script | Description |
