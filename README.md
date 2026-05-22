@@ -46,20 +46,6 @@ NomadSpot Taiwan is an interactive web application that helps digital nomads, re
 │       ├── cafe-images/        # Café photography (cafe-1.jpg … cafe-27.jpg)
 │       │
 │       └── icons/              # UI icons & region markers
-│           ├── logo.svg
-│           ├── NomadSpot TW.svg
-│           ├── north.svg       # Region: North Taiwan
-│           ├── central.svg     # Region: Central Taiwan
-│           ├── south.svg       # Region: South Taiwan
-│           ├── east.svg        # Region: East Taiwan
-│           ├── bicycle2.svg
-│           ├── clock.svg / clock.png
-│           ├── location.png
-│           ├── instagram.png
-│           ├── phone.png
-│           ├── star.png
-│           ├── rain.png
-│           └── wind.png
 │
 └── scripts/
     └── verify-bff.mjs          # BFF (Backend-for-Frontend) verification script
