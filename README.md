@@ -16,7 +16,8 @@ NomadSpot Taiwan is an interactive web application that helps digital nomads, re
 
 - 🗺️ **Interactive Leaflet.js Map** — browse cafés by region with custom SVG map markers
 - 🌤️ **Real-time Weather & AQI** — live environmental data per location via external APIs
-- 🎨 **Attraction and Youbike** —  live attraction and Youbike data per location via external APIs
+- 🎨 **Real-time Youbike info** — live availability data per location via external APIs
+- 🎨 **Nearby Attraction info** — nearby attraction data per location and automatized translation (from traditional Chinese to English) via external APIs
 - 🖼️ **Café Detail Panel** — responsive drawer / bottom-sheet with photos, amenities, and contact info
 - 📱 **Responsive Design** — two-page architecture optimised for both desktop and mobile
 
