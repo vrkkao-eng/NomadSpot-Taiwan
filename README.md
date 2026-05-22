@@ -16,9 +16,9 @@ NomadSpot Taiwan is an interactive web application that helps digital nomads, re
 
 - 🗺️ **Interactive Leaflet.js Map** — browse cafés by region with custom SVG map markers
 - 🌤️ **Real-time Weather & AQI** — live environmental data per location via external APIs
-- 🎨 **Real-time Youbike info** — live availability data per location via external APIs
+- 🚲 **Real-time Youbike info** — live availability data per location via external APIs
 - 🎨 **Nearby Attraction info** — nearby attraction data per location and automatized translation (from traditional Chinese to English) via external APIs
-- 🖼️ **Café Detail Panel** — responsive drawer / bottom-sheet with photos, amenities, and contact info
+- ☕ **Café Detail Panel** — responsive drawer / bottom-sheet with photos, amenities, and contact info
 - 📱 **Responsive Design** — two-page architecture optimised for both desktop and mobile
 
 ---
@@ -43,7 +43,22 @@ NomadSpot Taiwan is an interactive web application that helps digital nomads, re
 │   └── assets/
 │       ├── favicon.svg
 │       ├── cafe-images/        # Café photography (cafe-1.jpg … cafe-27.jpg)
+│       └── icons/
 │       └── icons/              # UI icons & region markers
+│           ├── logo.svg
+│           ├── NomadSpot TW.svg
+│           ├── north.svg       # Region: North Taiwan
+│           ├── central.svg     # Region: Central Taiwan
+│           ├── south.svg       # Region: South Taiwan
+│           ├── east.svg        # Region: East Taiwan
+│           ├── bicycle2.svg
+│           ├── clock.svg
+│           ├── location.svg
+│           ├── instagram.svg
+│           ├── phone.svg
+│           ├── star.svg
+│           ├── rain.svg
+│           └── wind.svg        # UI icons & region markers
 │
 └── scripts/
     └── verify-bff.mjs          # BFF (Backend-for-Frontend) verification script
