@@ -8,7 +8,7 @@
 
 NomadSpot Taiwan is an interactive web application that helps digital nomads, remote workers, and café-hoppers discover the best café workspaces across Taiwan. It combines real-time weather and AQI data to help users find the ideal spot to settle in and get things done.
 
-**Supported Language English
+**Supported Language: English
 
 ---
 
