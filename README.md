@@ -6,7 +6,7 @@
 
 ## Overview
 
-NomadSpot Taiwan is an interactive, multilingual web application that helps digital nomads, remote workers, and café-hoppers discover the best café workspaces across Taiwan. It combines real-time weather and AQI data with a composite **Work Index** to help users find the ideal spot to settle in and get things done.
+NomadSpot Taiwan is an interactive, multilingual web application that helps digital nomads, remote workers, and café-hoppers discover the best café workspaces across Taiwan. It combines real-time weather and AQI data to help users find the ideal spot to settle in and get things done.
 
 **Supported Languages  English
 
@@ -15,10 +15,8 @@ NomadSpot Taiwan is an interactive, multilingual web application that helps digi
 ## Features
 
 - 🗺️ **Interactive Leaflet.js Map** — browse cafés by city or region with custom SVG map markers
-- 📊 **Work Index** — composite score based on Wi-Fi, seating, noise, power outlets, and hours
 - 🌤️ **Real-time Weather & AQI** — live environmental data per location via external APIs
 - 🖼️ **Café Detail Panel** — responsive drawer / bottom-sheet with photos, amenities, and contact info
-- 🌐 **Multilingual UI** — full i18n across Traditional Chinese, English, Dutch, and French
 - 📱 **Responsive Design** — two-page architecture optimised for both desktop and mobile
 - 🎨 **Editorial Heritage Design System** — custom typography, palette, and iconography
 
@@ -33,18 +31,9 @@ NomadSpot Taiwan is an interactive, multilingual web application that helps digi
 ├── package.json                # Node.js dependencies & scripts
 ├── package-lock.json
 ├── server.js                   # Production Express server (Vercel)
-├── server_local.js             # Local development server
 ├── vercel.json                 # Vercel deployment configuration
-
-│
 ├── data/
 │   └── cafes.json              # Curated café dataset (all locations & metadata)
-│
-├── design-refs/                # UI design reference screenshots
-│   ├── cafe-detail.png         # Café detail panel mockup
-│   ├── intro.png               # Landing page mockup
-│   └── map.png                 # Map view mockup
-│
 ├── public/                     # Static frontend assets served to browser
 │   ├── index.html              # Landing / intro page
 │   ├── map.html                # Main map application page
@@ -53,8 +42,6 @@ NomadSpot Taiwan is an interactive, multilingual web application that helps digi
 │   │
 │   └── assets/
 │       ├── favicon.svg
-│       ├── index.svg           # Landing page illustration
-│       │
 │       ├── cafe-images/        # Café photography (cafe-1.jpg … cafe-27.jpg)
 │       │
 │       └── icons/              # UI icons & region markers
@@ -75,9 +62,6 @@ NomadSpot Taiwan is an interactive, multilingual web application that helps digi
 │
 └── scripts/
     └── verify-bff.mjs          # BFF (Backend-for-Frontend) verification script
-```
-
----
 
 ## Tech Stack
 
@@ -118,23 +102,10 @@ AQI_API_KEY=your_aqi_api_key
 PORT=3000
 ```
 
-> ⚠️ Never commit `.env` to version control. It is listed in `.gitignore`.
-
-###  Local Development
-
-```bash
-node server_local.js
-```
-
-Open [http://localhost:3000](http://localhost:3000) in your browser.
-
-
 ## Scripts
-
 | Script | Description |
 |---|---|
 | `node server.js` | Start production server |
-| `node server_local.js` | Start local development server |
 | `node scripts/verify-bff.mjs` | Verify Backend-for-Frontend proxy routes |
 
 ---
