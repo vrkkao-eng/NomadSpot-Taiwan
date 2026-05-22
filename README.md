@@ -36,20 +36,20 @@ NomadSpot Taiwan is an interactive web application that helps digital nomads, re
 ├── data/
 │   └── cafes.json              # Curated café dataset (all locations & metadata)
 └── public/                     # Static frontend assets served to browser
-   ├── index.html              # Landing / intro page
-   ├── map.html                # Main map application page
-   ├── map.js                  # Map logic — English version
-   ├── styles.css              # Global styles — English version
+   ├── index.html               # Landing / intro page
+   ├── map.html                 # Main map application page
+   ├── map.js                   # Map logic — English version
+   ├── styles.css               # Global styles — English version
    └── assets/
        ├── favicon.svg
-       ├── cafe-images/        # Café photography (cafe-1.jpg … cafe-27.jpg)
-       └── icons/              # UI icons & region markers
+       ├── cafe-images/         # Café photography (cafe-1.jpg … cafe-27.jpg)
+       └── icons/               # UI icons & region markers
           ├── logo.svg
           ├── NomadSpot TW.svg
-          ├── north.svg       # Region: North Taiwan
-          ├── central.svg     # Region: Central Taiwan
-          ├── south.svg       # Region: South Taiwan
-          ├── east.svg        # Region: East Taiwan
+          ├── north.svg         # Region: North Taiwan
+          ├── central.svg       # Region: Central Taiwan
+          ├── south.svg         # Region: South Taiwan
+          ├── east.svg          # Region: East Taiwan
           ├── bicycle2.svg
           ├── clock.svg
           ├── location.svg
