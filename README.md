@@ -18,7 +18,7 @@ NomadSpot Taiwan is an interactive web application that helps digital nomads, re
 - 🌤️ **Real-time Weather & AQI** — live environmental data per location via external APIs
 - 🖼️ **Café Detail Panel** — responsive drawer / bottom-sheet with photos, amenities, and contact info
 - 📱 **Responsive Design** — two-page architecture optimised for both desktop and mobile
-- 🎨 **Editorial Heritage Design System** — custom typography, palette, and iconography
+- 🎨 **Attraction and Youbike** —  live attraction and Youbike data per location via external APIs
 
 ---
 
