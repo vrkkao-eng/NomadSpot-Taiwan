@@ -35,33 +35,31 @@ NomadSpot Taiwan is an interactive web application that helps digital nomads, re
 ├── vercel.json                 # Vercel deployment configuration
 ├── data/
 │   └── cafes.json              # Curated café dataset (all locations & metadata)
-├── public/                     # Static frontend assets served to browser
-│   ├── index.html              # Landing / intro page
-│   ├── map.html                # Main map application page
-│   ├── map.js                  # Map logic — English version
-│   ├── styles.css              # Global styles — English version
-│   └── assets/
-│       ├── favicon.svg
-│       ├── cafe-images/        # Café photography (cafe-1.jpg … cafe-27.jpg)
-│       └── icons/
-│       └── icons/              # UI icons & region markers
-│           ├── logo.svg
-│           ├── NomadSpot TW.svg
-│           ├── north.svg       # Region: North Taiwan
-│           ├── central.svg     # Region: Central Taiwan
-│           ├── south.svg       # Region: South Taiwan
-│           ├── east.svg        # Region: East Taiwan
-│           ├── bicycle2.svg
-│           ├── clock.svg
-│           ├── location.svg
-│           ├── instagram.svg
-│           ├── phone.svg
-│           ├── star.svg
-│           ├── rain.svg
-│           └── wind.svg        # UI icons & region markers
-│
-└── scripts/
-    └── verify-bff.mjs          # BFF (Backend-for-Frontend) verification script
+└── public/                     # Static frontend assets served to browser
+   ├── index.html              # Landing / intro page
+   ├── map.html                # Main map application page
+   ├── map.js                  # Map logic — English version
+   ├── styles.css              # Global styles — English version
+   └── assets/
+       ├── favicon.svg
+       ├── cafe-images/        # Café photography (cafe-1.jpg … cafe-27.jpg)
+       └── icons/
+       └── icons/              # UI icons & region markers
+          ├── logo.svg
+          ├── NomadSpot TW.svg
+          ├── north.svg       # Region: North Taiwan
+          ├── central.svg     # Region: Central Taiwan
+          ├── south.svg       # Region: South Taiwan
+          ├── east.svg        # Region: East Taiwan
+          ├── bicycle2.svg
+          ├── clock.svg
+          ├── location.svg
+          ├── instagram.svg
+          ├── phone.svg
+          ├── star.svg
+          ├── rain.svg
+          └── wind.svg        # UI icons & region markers
+
 ---
 
 ##  License
