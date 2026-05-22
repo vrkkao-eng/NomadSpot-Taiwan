@@ -44,7 +44,6 @@ NomadSpot Taiwan is an interactive web application that helps digital nomads, re
 │   └── assets/
 │       ├── favicon.svg
 │       ├── cafe-images/        # Café photography (cafe-1.jpg … cafe-27.jpg)
-│       │
 │       └── icons/              # UI icons & region markers
 │
 └── scripts/
