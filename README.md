@@ -2,8 +2,6 @@
 
 >  A curated workspace discovery map for digital nomads in Taiwan. - 台灣數位遊牧咖啡廳探索地圖
 
-![NomadSpot Taiwan](public/assets/icons/NomadSpot%20TW.svg)
-
 ---
 
 ## Overview
