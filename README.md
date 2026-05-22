@@ -48,19 +48,6 @@ NomadSpot Taiwan is an interactive web application that helps digital nomads, re
 │
 └── scripts/
     └── verify-bff.mjs          # BFF (Backend-for-Frontend) verification script
-
-## Tech Stack
-
-| Layer | Technology |
-|---|---|
-| Frontend | HTML5, CSS3, Vanilla JavaScript |
-| Map Engine | [Leaflet.js](https://leafletjs.com/) |
-| Backend | [Express.js](https://expressjs.com/) (Node.js) |
-| HTTP Client | Axios |
-| Environment | dotenv |
-| Deployment | [Vercel](https://vercel.com/) |
-| Data | Static JSON (`data/cafes.json`) |
-
 ---
 
 ##  License
