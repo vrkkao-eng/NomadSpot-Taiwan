@@ -64,16 +64,6 @@ NomadSpot Taiwan is an interactive web application that helps digital nomads, re
 
 ---
 
-##  Getting Started
-
-## Scripts
-| Script | Description |
-|---|---|
-| `node server.js` | Start production server |
-| `node scripts/verify-bff.mjs` | Verify Backend-for-Frontend proxy routes |
-
----
-
 ##  License
 
 This project is for personal and educational use. All café images and data are curated independently.
