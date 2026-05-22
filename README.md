@@ -14,7 +14,7 @@ NomadSpot Taiwan is an interactive web application that helps digital nomads, re
 
 ## Features
 
-- 🗺️ **Interactive Leaflet.js Map** — browse cafés by city or region with custom SVG map markers
+- 🗺️ **Interactive Leaflet.js Map** — browse cafés by region with custom SVG map markers
 - 🌤️ **Real-time Weather & AQI** — live environmental data per location via external APIs
 - 🖼️ **Café Detail Panel** — responsive drawer / bottom-sheet with photos, amenities, and contact info
 - 📱 **Responsive Design** — two-page architecture optimised for both desktop and mobile
@@ -78,19 +78,6 @@ NomadSpot Taiwan is an interactive web application that helps digital nomads, re
 ---
 
 ##  Getting Started
-
-###  Prerequisites
-
-- Node.js `>= 18.x`
-- npm
-
-### Installation
-
-```bash
-git clone https://github.com/<your-username>/NomadSpot-Taiwan.git
-cd NomadSpot-Taiwan
-npm install
-
 
 ## Scripts
 | Script | Description |
