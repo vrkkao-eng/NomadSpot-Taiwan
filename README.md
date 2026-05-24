@@ -72,4 +72,4 @@ This project is for personal and educational use. All café images and data are 
 Design by Shelly and Sophie.
 Built with ☕ and 💻 by Lieselotte, Victor, Sophie, and Shelly.
 
-> *Find your spot. Do your best work.*
+> *Study near the mountains. Code by the beach. Explore night markets when you’re done. Discover our selection of work-friendly cafés across Taiwan, with live weather and bike availability, plus destination info to plan your next trip.*
